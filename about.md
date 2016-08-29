@@ -48,7 +48,17 @@ Un grazie sentito a :
 
 ### Press
 
-Data         | Dove    | Titolo 
-:------------|:--------|:------
-{% for member in site.data.press %} {{member.data}} | {{member.dove}} | [{{member.titolo}}]({{member.link}})
-{% endfor %}
+<table>
+  <thead>
+    <tr>
+      <td>Data</td> <td>Dove</td> <td>Titolo</td>
+    </tr>
+  </thead>
+  <tbody>
+    {% for member in site.data.press %}
+      <tr>
+        <td>{{member.data}}</td> <td>{{member.dove}}</td> <td>[{{member.titolo}}]({{member.link}})</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
