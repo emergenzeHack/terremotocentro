@@ -30,10 +30,10 @@ navbar-links:
     - Vittime: "vittime"
     - Link utili: "link_utili"
   Mappe: "mappe"
-  Vuoi donare?:
-    - Raccolta fondi: "donazioni#raccolte-fondi"
-    - Donazioni: "donazioni#donazioni"
-    - Fabbisogni: "donazioni#fabbisogni"
+  Vuoi donare?: "donare"
+    - Donazioni: "donazioni" 
+    - Raccolta Fondi: "raccolte_fondi"
+    - Fabbisogni: "fabbisogni"
   Il Progetto:
    - About: "about"
    - WIKI: 'https://github.com/emergenzeHack/terremotocentro/wiki" target="_blank'
