@@ -8,6 +8,8 @@ permalink: /donazioni/
 * [Donazioni](#donazioni)
 * [Fabbisogni](#fabbisogni)
 
+
+
 # Raccolte fondi
 
 {% for member in site.data.raccolte %}
@@ -62,6 +64,7 @@ permalink: /donazioni/
 </div>
 {% endfor %}
 
+* [Torna Sopra](javascript: $(window).scrollTop(0);)
 ---
 
 # Donazioni
@@ -119,7 +122,7 @@ permalink: /donazioni/
     {% endif %}
   {% endfor %}
 </div>
-
+* [Torna Sopra](javascript: $(window).scrollTop(0);)
 # Fabbisogni
 
 Data	Ora	Breve descrizione delle necessità	Elenco completo dei fabbisogni	Indirizzo	Località	Comune	Fonte 	Link	Latitudine	Longitudine
@@ -173,7 +176,7 @@ Data	Ora	Breve descrizione delle necessità	Elenco completo dei fabbisogni	Indir
 </div>
 </div>
 {% endfor %}
-
+* [Torna Sopra](javascript: $(window).scrollTop(0);)
 <div class="posts">
   {% for post in site.posts %}
     {% if post.categories contains 'donazioni' %}
