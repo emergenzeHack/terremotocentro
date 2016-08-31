@@ -30,7 +30,7 @@ navbar-links:
     - Vittime: "vittime"
     - Link utili: "link_utili"
   Mappe: "mappe"
-  Vuoi donare?: "donare"
+  Vuoi donare?: 
     - Donazioni: "donazioni" 
     - Raccolta Fondi: "raccolte_fondi"
     - Fabbisogni: "fabbisogni"
