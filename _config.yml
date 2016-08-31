@@ -31,7 +31,6 @@ navbar-links:
     - Link utili: "link_utili"
   Mappe: "mappe"
   Vuoi donare?: 
-    - Tutte le possibilità: "donare"
     - Donazioni: "donazioni" 
     - Raccolta Fondi: "raccolte_fondi"
     - Fabbisogni: "fabbisogni"
