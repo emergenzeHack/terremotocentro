@@ -8,5 +8,5 @@ Il nostro [bot Telegram](http://telegram.me/TerremotoCentroItalia_bot) registra 
 
 Ecco una mappa per consultarle:
 {% raw %}
-<iframe width="100%" height="300px" frameBorder="0" src="http://umap.openstreetmap.fr/it/map/terremoto-centro_100394?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&datalayersControl=true&onLoadPanel=undefined&captionBar=false"></iframe><p><a href="http://umap.openstreetmap.fr/it/map/terremoto-centro_100394">Visualizza schermo intero</a></p>
+<iframe style="width:100%;border:0px;" height="300" src="http://umap.openstreetmap.fr/it/map/terremoto-centro_100394?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&datalayersControl=true&onLoadPanel=undefined&captionBar=false"></iframe><p><a href="http://umap.openstreetmap.fr/it/map/terremoto-centro_100394">Visualizza schermo intero</a></p>
 {% endraw %}
