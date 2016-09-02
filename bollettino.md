@@ -24,7 +24,7 @@ permalink: /bollettino/
 <div class="panel-body">
 {% if member.Comune %}
 <div class="row">
-<div <div style="margin-left:15px; ">><b>Comune: </b>{{member.Comune}}</div>
+<div style="margin-left:15px; "><b>Comune: </b>{{member.Comune}}</div>
 </div>
 {% endif %}
 {% if member.Indirizzo %}
