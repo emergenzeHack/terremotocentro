@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Donazioni
-permalink: /donazioni/
+title: Risorse disponibili
+permalink: /risorse-disponibili/
 ---
 
-{% for member in site.data.donazioni %}
+{% for member in site.data.donazioni reversed %}
 {% if member.Descrizione %}
 {% if member.Cosa %}
 {% assign memberId = member.Descrizione|slugify|truncate:20,"" %}
@@ -20,27 +20,30 @@ permalink: /donazioni/
 <div class="panel-body">
 {% if member.Cosa %}
 <div class="row">
-<div style="margin-left:15px; "><b>Cosa: </b>{{member.Cosa}}
+<div class="col-md-2"><b>Cosa:</b></div><div>{{member.Cosa}}
 </div></div>
 {% endif %}
 {% if member.Descrizione %}
 <div class="row">
-<div style="margin-left:15px; word-break: break-all;"><b>Descrizione: </b>{{member.Descrizione}}</div>
+<div class="col-md-12">
+{{member.Descrizione}}
+</div>
 </div>
 {% endif %}
 {% if member.Indirizzo %}
 <div class="row">
-<div style="margin-left:15px; "><b>Indirizzo: </b>{{member.Indirizzo}}</div>
+<div class="col-md-2"><b>Indirizzo:</b></div><div class="col-md-10">{{member.Indirizzo}}</div>
+</div>
 {% endif %}
 
 {% if member.Contatti %}
 <div class="row">
-<div style="margin-left:30px; "><b>Contatti: </b>{{member.Contatti}}</div>
+<div class="col-md-2"><b>Contatti:</b></div><div class="col-md-10">{{member.Contatti}}</div>
 </div>
 {% endif %}
 {% if member.Link %}
 <div class="row">
-<div style="margin-left:15px; "><b>Link: </b><a style="word-break: break-all;" href="{{member.Link}}">{{member.Link}}</a></div>
+<div class="col-md-2"><b>Link:</b></div><div class="col-md-10"><a href="{{member.Link}}">{{member.Link}}</a></div>
 </div>
 {% endif %}
 </div>
