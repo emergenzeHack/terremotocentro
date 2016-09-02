@@ -58,7 +58,7 @@ permalink: /fabbisogni/
 </div>
 {% endif %}
 </div>
-<div class="panel-footer">
+<div class="panel-footer"> 
 <ul class="share-buttons">
   <li>Condividi:</li>
   <li><a href="{{memberUrl}}" title="Copia link"><img alt="Copia link" src="/img/icone/link.png"></a></li>
