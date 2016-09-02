@@ -25,4 +25,4 @@ Cognome         |Nome                    |Prefettura   |Data di nascita|Luogo di
     {% endif %}
   {% endfor %}
 </div>
-
+ 
