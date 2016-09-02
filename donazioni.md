@@ -25,7 +25,7 @@ permalink: /donazioni/
 {% endif %}
 {% if member.Descrizione %}
 <div class="row">
-<div style="margin-left:15px; "><b>Descrizione: </b>{{member.Descrizione}}</div>
+<div style="margin-left:15px; word-break: break-all;"><b>Descrizione: </b>{{member.Descrizione}}</div>
 </div>
 {% endif %}
 {% if member.Indirizzo %}
@@ -35,7 +35,7 @@ permalink: /donazioni/
 
 {% if member.Contatti %}
 <div class="row">
-<div style="margin-left:15px; "><b>Contatti: </b>{{member.Contatti}}</div>
+<div style="margin-left:30px; "><b>Contatti: </b>{{member.Contatti}}</div>
 </div>
 {% endif %}
 {% if member.Link %}
