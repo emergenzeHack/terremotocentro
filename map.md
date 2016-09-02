@@ -18,4 +18,4 @@ permalink: /mappe/
       </article>
     {% endif %}
   {% endfor %}
-</div>
+</div> 
