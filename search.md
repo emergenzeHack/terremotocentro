@@ -21,3 +21,6 @@ css: "/css/search.css"
     
     
 </div>
+<div id="filler" style="min-height:600px;">
+&nbsp;
+</div>
